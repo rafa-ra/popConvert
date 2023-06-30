@@ -1,0 +1,28 @@
+{
+  "type": "game",
+  "title": "Vamos jogar!",
+  "subtitle": "Assista a este vídeo incrível!",
+  "videoUrl": "https://www.youtube.com/embed/VIDEO_ID",
+  "formFields": {
+    "numberOfFields": 4,
+    "fields": [
+      {
+        "fieldType": "email",
+        "fieldTitle": "Email"
+      },
+      {
+        "fieldType": "text",
+        "fieldTitle": "Nome"
+      },
+      {
+        "fieldType": "text",
+        "fieldTitle": "Telefone Celular"
+      },
+      {
+        "fieldType": "text",
+        "fieldTitle": "Gênero"
+      }
+    ]
+  },
+  "consentCheckbox": false
+}
