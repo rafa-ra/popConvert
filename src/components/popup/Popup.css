@@ -60,10 +60,10 @@
 }
 
 .content__title {
-  margin-top: 300px;
+  margin-top: 150px;
 
   @media (max-width: 425px) {
-    margin-top: 500px;
+    margin-top: 300px;
   }
 }
 
@@ -146,6 +146,11 @@
     height: 25px;
   }
 
+  @media (max-width: 425px) {
+    width: 300px;
+    height: 25px;
+  }
+
   @media (max-width: 375px) {
     width: 230px;
     height: 25px;
@@ -164,6 +169,14 @@
 
 .content__form-button {
   width: 300px;
+
+  @media (max-width: 425px) {
+    width: 250px;
+  }
+}
+
+.video__iframe {
+  width: 560px;
 
   @media (max-width: 425px) {
     width: 250px;

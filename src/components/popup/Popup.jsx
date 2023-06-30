@@ -16,7 +16,17 @@ export const Popup = ({
     fieldsArray.push(formFields.fields[i]);
   }
 
-  const videoContent = <h3>video</h3>;
+  const videoContent = (
+    <div className="video">
+      <iframe
+        className="video__iframe"
+        title="Video"
+        src={videoUrl}
+        frameBorder="0"
+        allowFullScreen
+      />
+    </div>
+  );
   const gameContent = (
     <div className="game">
       <h4 className="game__title">Tente a sorte!</h4>
