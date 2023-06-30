@@ -55,6 +55,12 @@ export const Popup = ({
               </div>
             ))}
           </div>
+          {consentCheckbox.visible && (
+            <div className="content__checkbox-div">
+              <input type="checkbox" />
+              <label>{consentCheckbox.text}</label>
+            </div>
+          )}
           <div className="content__form-button-div">
             <button type="submit" className="content__form-button">
               Enviar

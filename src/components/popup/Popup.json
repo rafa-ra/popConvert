@@ -24,5 +24,8 @@
       }
     ]
   },
-  "consentCheckbox": false
+  "consentCheckbox": {
+    "visible": true,
+    "text": "Quero participar"
+  }
 }

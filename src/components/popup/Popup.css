@@ -27,13 +27,13 @@
   text-align: center;
   overflow-y: auto;
 
-  @media (max-width: 425px) {
-    width: 80%;
-    height: 90%;
+  @media (max-width: 1024px) {
+    max-height: 90%;
   }
 
   @media (max-width: 768px) {
-    width: 90%;
+    width: 85%;
+    height: 90%;
   }
 }
 
@@ -60,15 +60,20 @@
 }
 
 .content__title {
-  margin-top: 150px;
+  margin-top: 200px;
+
+  @media (max-width: 768px) {
+    margin-top: 150px;
+  }
 
   @media (max-width: 425px) {
-    margin-top: 300px;
+    margin: 300px 0 -10px;
   }
 }
 
 .content__subtitle {
   color: #6807f9;
+  margin-top: 20px;
 }
 
 .content__closeIcon {
@@ -88,6 +93,13 @@
     }
   }
 
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
   @media (max-width: 425px) {
     width: 100%;
   }
@@ -96,8 +108,21 @@
 .game__img {
   max-width: 300px;
 
+  @media (max-width: 1024px) {
+    height: 200px;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 25%;
+  }
+
   @media (max-width: 425px) {
-    max-width: 100%;
+    max-width: 50%;
+    height: 150px;
+  }
+
+  @media (max-width: 375px) {
+    height: 100px;
   }
 }
 
@@ -152,9 +177,20 @@
   }
 
   @media (max-width: 375px) {
-    width: 230px;
+    width: 270px;
     height: 25px;
   }
+
+  @media (max-width: 355px) {
+    width: 250px;
+    height: 25px;
+  }
+}
+
+.content__checkbox-div {
+  text-align: left;
+  padding-top: 10px;
+  margin-bottom: -15px;
 }
 
 .content__form-button-div {
@@ -179,6 +215,10 @@
   width: 560px;
 
   @media (max-width: 425px) {
+    width: 320px;
+  }
+
+  @media (max-width: 420px) {
     width: 250px;
   }
 }
